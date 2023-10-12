@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- x-icon -->
+    <link rel="shortcut icon" href="assets/css/favicon.png" type="image/x-icon">
+
+    <!-- Other css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Constol</title>
+</head>
+
+<body>
+    <!-- preloader start here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- preloader ending here -->
+
+
+
+    <!-- ==========Header Section Starts Here========== -->
+    <header class="header header__one">
+        <div class="header__top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-12">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <img src="assets/images/header/icon/01.png" alt="icon" />
+                                    <span>240 Parkway United States</span>
+                                </li>
+                                <li>
+                                    <img src="assets/images/header/icon/02.png" alt="icon" />
+                                    <span>Mon-Fri : 09:30 Am - 06:24 Pm</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-12">
+                        <div class="social text-xl-end">
+                            <ul>
+                                <li><a href="#">facebook</a></li>
+                                <li><a href="#">linkdin</a></li>
+                                <li><a href="#">youtube</a></li>
+                                <li><a href="#">twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="area">
+                    <div class="logo">
+                        <a href="index.php"><img src="assets/images/header/logo/logo.png" alt="logo" /></a>
+                    </div>
+        <?php include 'menu.php'; ?>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ==========Header Section Ends Here========== -->
